@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.summary      = 'SSK for Open GL'
     s.homepage     = 'https://github.com/soulCorw/LearnOpenGL'
     s.license      = { :type => "MIT", :file => "LICENSE" }
-    s.authors      = {'Annieast42' => 'soulcrow@gitee.com'}
+    s.authors      = {'Annieast42' => '1270086123soulcrow@gmail.com'}
     #s.platform     = :ios, '8.0'
     
     s.ios.deployment_target = "8.0"
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     s.public_header_files = "include/*.h","Sources/Public/*.h"
     s.source_files = 'include/**/*.{h,m}'
     #s.resource     = 'Sources/HBQRCode.bundle'
-    s.requires_arc = true
+    #s.requires_arc = true
 
     s.vendored_libraries  = 'podSDK/Sources/*.a'
 
