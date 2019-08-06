@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-    s.name         = 'SSKGL'
+    s.name         = 'Triangle'
     s.version      = '1.0.0'
     s.summary      = 'SSK for Open GL'
     s.homepage     = 'https://github.com/soulCorw/LearnOpenGL'
