@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
     
     s.source       = {:git => 'git@github.com:soulCorw/LearnOpenGL.git', :tag => s.version}
 
-    s.public_header_files = "include/*.h","Sources/Public/*.h"
-    s.source_files = 'include/**/*.{h,m}'
+    s.public_header_files = "Triangle/Triangle/include/*.h","Triangle/Triangle/include/GL/*.h"
+    #s.source_files = 'include/**/*.{h,m}'
     #s.resource     = 'Sources/HBQRCode.bundle'
     #s.requires_arc = true
 
-    s.vendored_libraries  = 'podSDK/Sources/*.a'
+    s.vendored_libraries  = 'Triangle/Triangle/*.a'
 
     
 end
